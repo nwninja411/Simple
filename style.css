@@ -1,0 +1,79 @@
+/* Welcome to my Style Sheet*/
+/* Here I am styling my body section and I am centering it as well */
+body{
+    color: rgb(0, 173, 130);
+    background-color: rgb(14, 14, 14);
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+/* Here I am styling my header and making sure its centered */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Here I am adjusting the size of my font. Using rem makes the font responsive and changes across differnt displays */
+h1{
+    font-size: 4rem;
+    padding-top: 35px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 2rem;
+}
+/* This is where I am grouping my portrait and my info toghether that way they appear side by side rather than stacked on top of each other. */
+.Content-Group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+/* Here I am adjusting the spacing of the info so it isn't so close to the portrait */
+  .Info{
+    padding-top:70px;
+    display: flex;
+    gap: 1rem;
+  }
+/* Here I am setting the image size of my portrait. Utilizing with 100% and max-width allows for the image to correctly scale across multiple screen sizes */
+.Portrait{
+   width: 100%;
+   max-width: 500px;
+   height: auto; 
+}
+/* Here I am adjusting the size of the icons and adjusting the spacing from them to the info */
+.icons{
+    padding-top: 1.5rem;
+    width: 10%;
+    max-width: 100px;
+    height: 10%;
+}
+
+/* Here I am centering the footer so that the attributions are centered at the bottom of the page. */
+.attribution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
