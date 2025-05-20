@@ -42,7 +42,7 @@ h3{
 .Content-Group {
     display: flex;
     align-items: flex-start;
-    justify-content: left;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
     padding: 20px;
