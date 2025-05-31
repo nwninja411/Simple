@@ -12,8 +12,8 @@
 <body>
     <!-- The title of my webpage goes in the header -->
     <header>
-            <h1>Welcome to my simple Webpage</h1>
-            <h2>Get to know me</h2>
+            <h1 id="Header"></h1>
+            <h2 id="SubHeading">Get to know me</h2>
     </header>
 <!-- I have to create a class that contains both my portrait and the info so that I can make them appear side by side in my CSS page -->
 <div class="Content-Group">
@@ -24,19 +24,19 @@
             <!-- I have to put the image on top and the h3 on bottom so that the icon will appear left of the text -->
             <div class="Info">
                 <img src="./Images/HumanIcon.png" alt="Icon of a Human" class="icons">
-                <h3>Name: Noah Walker</h3>
+                <h3 id="Name">Name: Noah Walker</h3>
             </div>
             <div class="Info">
                 <img src="./Images/books.png" alt="Icon of an academic books" class="icons">
-                <h3>Major: Digital Video</h3>
+                <h3 id="Major">Major: Digital Video</h3>
             </div>
             <div class="Info">
                 <img src="./Images/Education.png" alt="Icon of an academic cap" class="icons">
-                <h3>Graduation Date: May 2026</h3>
+                <h3 id="Grad">Graduation Date: May 2026</h3>
             </div>
             <div class="Info">
                 <img src="./Images/EmailIcon.png" alt="Icon of a envelope" class="icons">
-                <h3>Contact: Noawalke@uat.edu</h3>
+                <h3 id="Contact">Contact: Noawalke@uat.edu</h3>
             </div> 
         </section>
     </main>
@@ -50,5 +50,8 @@
             <h4><a href="https://www.flaticon.com/free-icons/email" title="email icons">Envelope icon created by Uniconlabs - Flaticon</a></h4>
         </section>
     </footer>
+<script src="script.js">
+    //Here I am just linking the external JS file to my HTML file.
+</script>
 </body>
 </html>
